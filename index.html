@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Brisa Tovar</title>
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu" rel="stylesheet">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section id="title" class="colored-section">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">Brisa Tovar</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CV.pdf">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Public key </a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">I'm a developer in love with design</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button" onclick="location.href='CV.pdf';">
+            <i class="fas fa-id-card"></i> 
+          CV</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-key"></i> Public Key</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/design2.jpg" alt="iphone-mockup">
+        </div>
+      </div>
+
+    </div><!-- container-Fluid -->
+  </section>
+
+
+  <!-- Academic Background -->
+
+  <section id="features" class="white-section">
+    <div class="container-fluid">
+      
+      <p class="section-heading text-center">Academic Background</p>
+      <div class="row">
+        <div class="col-lg-6 feature">
+          <img class="uni-image" src="images/logoIPN.jpg" alt="school-logo">
+          <h3 class="feature-title">Instituto Politécnico Nacional</h3>
+          <p>Escuela Superior de Cómputo</p>
+          <p>Computer Systems Engineering (2016-2021)</p>
+        </div>
+
+        <div class="col-lg-6 feature">
+          <img class="school-image" src="images/EscudoUAEM.jpg" alt="school-logo">
+          <h3 class="feature-title">Universidad Autónoma del Estado de México</h3>
+          <p>High school (2013-2016)</p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Interests -->
+
+  <section id="testimonials" class="colored-section">
+
+    <p class="interests-heading text-center">Im interested in...</p>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Languages:</h2>
+          <h2 class="interests-heading">I am currently learning Japanese and German</h2>
+          <img src="images/japanFlag.png" class="testimonial-img" alt="japan-flag">
+          <img src="images/GermanFlag.png" class="testimonial-img" alt="germna-flag">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Programming</h2>
+          <h2 class="interests-heading">I am currently studying python and NodeJS</h2>
+          <img class="testimonial-img" src="images/coding.png" alt="computer">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Design</h2>
+          <h2 class="interests-heading">I love reading about UI and UX</h2>
+          <img class="testimonial-img" src="images/paint.png" alt="paint">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing" class="white-section">
+
+    <h2 class="section-heading">My hobbies </h2>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Reading</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">I'm a lover of:</h2>
+            <p>Science fiction</p>
+            <p>Post apocalypse novels</p>
+            <p>Philosophy</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>DIY</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">I enjoy doing handcrafted things such as:</h2>
+            <p>Origami</p>
+            <p>Makeup</p>
+            <p>confectionery</p>
+          </div>
+        </div>
+      </div>
+      <!-- I can avoid md-12, cuz is the default  -->
+      <div class="pricing-column col-lg-4 ">
+        <div class="card">
+          <div class="card-header">
+            <h3>Sports</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">I like starting my day with some:</h2>
+            <p>Yoga</p>
+            <p>Cardio</p>
+            <p>Dancing</p>
+            <p>Tae Kwon do</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta" class="colored-section">
+    <div class="container-fluid">
+    <h3 class="big-heading">El miedo es la inspiración malinterpretada.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button" onclick="location.href='https://twitter.com/Bichicomestyles';" >
+      <i class="fab fa-twitter"></i> My Twitter</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button" onclick="location.href='https://www.instagram.com/brisatovar/';" >
+      <i class="fab fa-instagram"></i> My Instagram</button>
+    <button type="button" class="btn btn-dark btn-lg download-button"  >
+      <i class="fas fa-envelope-open-text"></i> brisa.tovar@outlook.es</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer" class="white-section">
+
+
+    <i class="fab fa-twitter footer-icon"></i>
+    <i class="fab fa-facebook-f footer-icon"></i>
+    <i class="fab fa-instagram footer-icon"></i>
+    <i class="fas fa-envelope footer-icon"></i>
+
+    <p>© Copyright 2020</p>
+
+  </footer>
+
+
+</body>
+
+</html>

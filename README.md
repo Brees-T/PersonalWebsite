@@ -1,2 +1,1 @@
-# PersonalWebsite
-a simple mockup of my personal website
+TinDog Starting Files
